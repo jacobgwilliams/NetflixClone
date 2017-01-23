@@ -1,14 +1,17 @@
 import React from 'react'
 
-const div = React.DOM.div
-const h1 = React.DOM.h1
+// const div = React.DOM.div
+// const h1 = React.DOM.h1
 
 const MyTitle = React.createClass({
-  render () {
+  render: function () {
+    const style = {color: this.props.color}
     return (
-      div(null,
-        h1({ style: { color: this.props.color } }, this.props.title)
-      )
+      <div>
+        <h1 style= { style }>
+          {this.props.title}
+        </h1>
+      </div>
     )
   }
 })
