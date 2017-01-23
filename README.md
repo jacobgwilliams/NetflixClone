@@ -11,3 +11,6 @@ Please contribute, file issues, and make PRs. More than anything I'm sure there 
 MIT
 
 [gh-page]: http://btholt.github.io/complete-intro-to-react/
+
+Ignore me!
+"lint": "eslint js/**/*.js server.js",
